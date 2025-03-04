@@ -49,7 +49,8 @@
 								placeholder="Автор, название, ISBN"
 							>
 							<button class="header-main__content-button">
-								<img src="/public/svg/Interface 52 - 24px.png">Искать
+								<img src="/public/svg/Interface 52 - 24px.png">
+								<span>Искать</span>
 							</button>
 						</div>
 					</div>
@@ -96,6 +97,14 @@
 
 <style lang="css" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+nav{
+	font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+
+}
 .container{
     max-width: 1366px;
     margin: 0 auto;
@@ -125,6 +134,9 @@
 	justify-content: space-around;
 	height: 20px;
 }
+.header-top__menu-content>img{
+	padding-right: 10px;
+}
 .header-top__callback
 {
 	width: 30%;
@@ -139,6 +151,9 @@
 	height: 20px;
 	justify-content: space-around;
 
+}
+.header-top__callback-content>img{
+	padding-right: 5px;
 }
 .header-main{
 	font-size: 14px;
@@ -188,6 +203,9 @@ align-items: center;
 	height: 20px;
 	justify-content: space-between;
 }
+.header-main__cart-content>img{
+	padding-left: 10px;
+}
 .header-main__cart-content:not(:last-child){
 	margin-right: 30px;
 
@@ -206,5 +224,8 @@ align-items: center;
 }
 .header-main__nav-content:nth-child(4){
 	color: red;
+}
+.header-main__content-button>img{
+
 }
 </style>
