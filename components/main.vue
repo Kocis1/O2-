@@ -124,7 +124,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>
@@ -167,7 +167,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>
@@ -212,7 +212,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>
@@ -345,7 +345,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>
@@ -388,7 +388,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>
@@ -433,7 +433,7 @@
 							<div class="income__content-card__recomendation">
 								<span class="income__content-card__recomendation__content">
 									<img
-										src=""
+										src="/public/Новая папка/Star.png"
 									>
 									<span>4.9</span>
 								</span>

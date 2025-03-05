@@ -1,5 +1,9 @@
 <script setup>
 // поменял использование апи ( также, когда мы используем useFetch лучше не вызывать тоаст, так как на сервере он не может появится => будут возникать ошибки)
+import Header from '../components/header.vue';
+import Main from '../components/main.vue';
+import Footer from '../components/footer.vue';
+
 const { auth } = useApi();
 
 const isLogged = async () =>
@@ -15,11 +19,17 @@ const isLogged = async () =>
 await isLogged();
 
 // работа со стором
-const { userStore } = useStore();
+// const { userStore } = useStore();
 </script>
 
 <template>
 	<div>
+		<Header />
+		<Main />
+		<Footer />
+	</div>
+
+	<!-- <div>
 		<h1 class="show">
 			Главная страница (тайтл показывается только на десктопе)
 		</h1>
@@ -52,9 +62,8 @@ const { userStore } = useStore();
 
 		Имя пользователя {{ userStore.name }}
 
-		<!-- использование иконок -->
-		<icons-burger />
-	</div>
+	 <icons-burger />
+	</div> -->
 </template>
 
 <style lang="scss">
